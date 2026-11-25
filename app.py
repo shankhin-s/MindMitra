@@ -730,8 +730,7 @@ if big_text:
 # Home
 # ============================================================
 if page == "Home":
-    hour = datetime.now().hour
-    greeting = "Good morning" if hour < 12 else "Good afternoon" if hour < 17 else "Good evening"
+    greeting = "Hello"
     hero(
         f"{greeting}, {html.escape(user['name'])}! 👋",
         "Your friendly space for memory activities, number challenges, word games "
