@@ -1147,3 +1147,4 @@ elif page == "About":
 
 st.markdown("---")
 st.caption("© MindMitra | AI-Assisted Cognitive Gaming Platform")
+# 
